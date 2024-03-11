@@ -1,0 +1,34 @@
+body{ margin: 0px;}
+
+header{ 
+    background-color: blue;
+    text-align: center;
+    padding: 15px;
+}
+       nav ul{
+        list-style-type: none;
+        background-color:rgb(26, 24, 24);
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        
+       }
+       nav a{ 
+        color: antiquewhite;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        text-align: center;
+       }
+       nav li{ 
+        float: left;
+       }
+       
+
+
+
+footer{
+    padding: 15px;
+    background-color: blue;
+    text-align: center;
+}
