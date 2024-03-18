@@ -1,13 +1,19 @@
-body{ margin: 0px;}
+body{ margin: 0px;
+background-image:url(assets/images/download.jpeg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: fixed;
 
+}
 header{ 
     background-color: white;
     text-align: center;
     padding: 15px;
+                
 }
      
       nav{ 
-        background-color: rgb(48, 44, 44);
+        background-color: rgb(48, 44, 44)
  
       }
 
@@ -23,6 +29,7 @@ header{
        
        nav ul li{
         display: inline-block;
+        text-align: center;
        
        }
 
@@ -34,6 +41,11 @@ header{
 
        nav a{
         padding: 30px;
+       }
+       
+       nav a:hover{
+        background-color:white;
+      
        }
 
         
