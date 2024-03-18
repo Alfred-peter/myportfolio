@@ -1,34 +1,47 @@
 body{ margin: 0px;}
 
 header{ 
-    background-color: blue;
+    background-color: white;
     text-align: center;
     padding: 15px;
 }
      
-    
+      nav{ 
+        background-color: rgb(48, 44, 44);
+ 
+      }
+
+
+
+
+
        nav ul{
         list-style-type: none;
-        background-color:rgb(26, 24, 24);
         margin: 0px;
-        padding: 0px;
-        overflow: hidden;
+        padding: 0px; 
+       }
+       
+       nav ul li{
+        display: inline-block;
+       
+       }
+
+       nav li{
+        padding-top: 15px;
+        padding-bottom: 20px;
         
        }
-       /* nav a{ 
-        color: antiquewhite;
-        text-decoration: none;
-        display: block;
-        padding: 15px;
-        text-align: center;
-       } */
-       
-       
 
+       nav a{
+        padding: 30px;
+       }
 
-
-footer{
-    padding: 15px;
-    background-color: blue;
-    text-align: center;
-}
+        
+        .footer{
+            text-align: center;
+            background-color: rgb(48, 44, 44);
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+    
+    
