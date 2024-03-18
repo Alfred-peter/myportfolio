@@ -1,51 +1,21 @@
-body{ margin: 0px;
-background-image:url(assets/images/download.jpeg);
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-position: fixed;
+.body{ margin: 15px;
+  padding-left: 20px;
+  color: white;
+  background-color: rgb(77, 77, 69);
 
 }
-header{ 
-    background-color: white;
-    text-align: center;
-    padding: 15px;
-                
-}
-     
-      nav{ 
-        background-color: rgb(48, 44, 44)
- 
-      }
 
-
-
-
-
-       nav ul{
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px; 
-       }
-       
-       nav ul li{
-        display: inline-block;
-        text-align: center;
-       
-       }
-
-       nav li{
-        padding-top: 15px;
-        padding-bottom: 20px;
-        
-       }
-
-       nav a{
-        padding: 30px;
-       }
-       
-       nav a:hover{
-        background-color:white;
-      
+.head{ 
+  text-align: center;
+    background-color: rgb(77, 77, 69);
+    margin-bottom:0px;
+    margin-top:40px;
+  color: white;
+  }
+    
+              
+       .navbar{
+        background-color: rgba(122, 119, 119, 0);
        }
 
         
@@ -54,6 +24,7 @@ header{
             background-color: rgb(48, 44, 44);
             padding-top: 20px;
             padding-bottom: 15px;
+            color: white;
         }
     
     
